@@ -72,3 +72,91 @@
 .produtos-info ul li:nth-child(even) {
   margin-left: 2px;
 }
+
+/* orçamento */
+
+.produtos-orcamento {
+  background: #000;
+  width: 100%;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
+.produtos-form {
+  padding-right: 60px;
+}
+
+.produtos-form label {
+  display: block;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.produtos-form input,
+.produtos-form textarea {
+  display: block;
+  width: 100%;
+  border: 3px solid #fec63e;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.produtos-form textarea {
+  height: 120px;
+}
+
+.produtos-form button {
+  padding: 7px 40px;
+  background: none;
+  cursor: pointer;
+}
+
+.orcamento-dados {
+  color: #fff;
+}
+
+.orcamento-dados h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #fec63e;
+  font-weight: bold;
+}
+
+.orcamento-dados span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.orcamento-dados span ~ span {
+  /* Seleciona o span que é possui um span antes */
+  margin-bottom: 40px;
+}
+
+.orcamento-dados p {
+  margin: 8px 0;
+}
+
+.orcamento-dados ul {
+  padding-right: 40px;
+}
+
+.orcamento-dados ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.orcamento-dados ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
