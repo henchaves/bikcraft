@@ -51,6 +51,10 @@
     border-color: #fff;
   }
 
+  .header-menu ul li a.menu-ativo {
+    border-color: #fff;
+  }
+
   /* Home */
   .introducao {
     margin-top: 0px;
@@ -72,5 +76,23 @@
 
   .qualidade-lista li {
     padding: 0 20px;
+  }
+
+  /* Introdução Interna */
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /* Sobre */
+
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 21px;
+    padding-right: 0px;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
