@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
 </head>
 
 <body>
@@ -37,18 +40,31 @@
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" data-slide="quote">
     <blockquote class="quote-clientes">
       <p>"Adorei demais a bicicleta que a bikcraft fez para mim. Uso ela todo dia, desde ir para o trabalho, até para lazer mesmo. Qualidade impecável."</p>
       <cite>Bárbara Moss</cite>
     </blockquote>
+    <blockquote class="quote-clientes">
+      <p>"Subir numa bicicleta sem qualidade ou de tamanho errado é a certeza de sentir-se desconfortável e de ter mais um objeto empoeirando na casa."</p>
+      <cite>Jhony Rato</cite>
+    </blockquote>
+    <blockquote class="quote-clientes">
+      <p>"Adorei demais a bicicleta que a bikcraft fez para mim. Uso ela todo dia, desde ir para o trabalho, até para lazer mesmo. Qualidade impecável."</p>
+      <cite>Bernardo</cite>
+    </blockquote>
   </section>
 
   <section class="portfolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio-lista">
         <li class="grid-8"><img src="./img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
         <li class="grid-8"><img src="./img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="grid-16"><img src="./img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+      </ul>
+      <ul class="portfolio-lista">
+        <li class="grid-8"><img src="./img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="grid-8"><img src="./img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
         <li class="grid-16"><img src="./img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
       </ul>
     </div>
@@ -93,6 +109,9 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
